@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Boostrap Starter Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Food, LLC</a>
+      </div>
+        <div class="collapse navbar-collapse" id="navbar-menu">
+        <ul class="nav navbar-nav visible-xs">
+          <li><a href="#chicken" class="text-center">Chicken <span class="sr-only">(current)</span></a></li>
+          <li><a href="#beef" class="text-center">Beef</a></li>
+          <li><a href="#sushi" class="text-center">Sushi</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+    <h2 class="text-center">Our Menu</h2>
 
-You can use the [editor on GitHub](https://github.com/shuu05/module-3-assignment/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="section">
+          <h3 class="text-center" id="chicken">Chicken</h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et 
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="section">
+          <h3 class="text-center" id="beef">Beef</h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et 
+        </div>
+      </div>
+      <div class="col-xs-12">
+        <div class="section">
+          <h3 class="text-center" id="sushi">Sushi</h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et ornare tortor bibendum. Nam accumsan ligula ipsum, a interdum dolor pretium a. Duis a tellus nec lacus tempor mollis. Donec et magna vitae lorem ultrices euismod.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in ullamcorper erat. Vivamus tempor metus orci, non placerat est interdum non. Integer neque orci, finibus nec arcu et, vestibulum luctus urna. Suspendisse potenti. Sed maximus molestie mi ac sodales. Morbi egestas velit eget vehicula pharetra. Maecenas feugiat mi vel eros vulputate, et 
+        </div>
+      </div>
+         </div>
+  </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/shuu05/module-3-assignment/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
